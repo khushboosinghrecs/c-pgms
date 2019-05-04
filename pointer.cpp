@@ -29,3 +29,20 @@ int main()
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
+// newwwwwwwwwwwwww
+#include <iostream>
+int inr(int* l)
+{
+    return *l++;
+}
+int inm(int l)
+{
+    return l++;
+}
+
+int main() {
+    int a=4;
+    std::cout<<inr(&a)<<std::endl;
+    std::cout<<inm(6)<<std::endl;
+    return 0;
+}
