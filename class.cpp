@@ -148,3 +148,31 @@ int main()
 
     return 0;
 }
+
+//inherintence
+using namespace std;
+class box
+{
+public:
+int l;
+public:
+void ne(int k)
+{
+l=k;
+}
+
+};
+class bos:public box
+{
+
+public:
+void setx(int j)
+{
+ne(j);
+}
+};
+int main()
+{
+bos a;
+a.setx(8);
+}
