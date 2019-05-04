@@ -16,7 +16,15 @@ int main()
      j.swap(k);
      cout<<k.first;
      cout<<k.second;
-
-
-
+    return 0;
+}
+// new pair
+#include<iostream>
+#include<tuple>
+using namespace std;
+int main()
+{
+tuple<string, int, int> t1;
+t1=make_tuple("rahul", 15, 78);
+cout<<get<1>(t1)<<" "<<get<2>(t1);
 }
