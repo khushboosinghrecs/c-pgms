@@ -25,7 +25,28 @@ void finddemo()
    {
        cout<<"element not found in vector";
    }
+    return 0;
+
+}
+// sorting
+#include<iostream>
+#include<algorithm>
+using namespace std;
 
 
+void sort(int s[])
+{
+    for(int i=0; i<sizeof(s)-1; i++)
+    {
 
+    cout<<s[i];
+    }
+}
+int main()
+{
+int a[5]={23,7,8,9,34};
+
+short(a,a+4);
+sort(a);
+return 0;
 }
