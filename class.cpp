@@ -107,3 +107,44 @@ private:
         s1.showstudent();
         return 0;
     }
+// class
+#include <iostream>
+#include<list>
+#include<utility>
+#include<string.h>
+#include<stdlib.h>
+#include<string>
+class maa{
+private:
+    int age;
+    char name[29];
+public:
+    void setage(int j)
+    {
+        age=j;
+
+    }
+    void setname(char *s)
+    {
+        strcpy(name, s);
+    }
+    void showage()
+    {
+        std::cout<<"age is"<< age<<std::endl;
+    }
+    void showname()
+    {
+        std::cout<< name<<std::endl;
+    }
+
+};
+int main()
+{
+    maa k1;
+    k1.setname("neera");
+    k1.setage(37);
+    k1.showname();
+    k1.showage();
+
+    return 0;
+}
